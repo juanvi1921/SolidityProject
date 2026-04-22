@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkWinninProposalWithReturnValue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkWinningProposal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Ballot_test.sol": "BallotTest"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_Ballot.sol": {
+			"keccak256": "0xcbd9edecd754a38b42e18274ae4c89792eb3a3ee3de804019b618bed7fd6b1c1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7ffead843527326b6a8a6f15fc333304ba2c298cd8f61ac57dd11aa166d9c06d",
+				"dweb:/ipfs/QmQPGfh1jmREFZbvo6nsFgjX8WLoPeqUAFmsV3BrdN92NS"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/Ballot_test.sol": {
+			"keccak256": "0x912b43612bc92001eee38161cc22287b8cddb1462ffc46b6a16d5510c623c934",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://489a5c4c1324615e67555a2a5be34833182d0656b1dd5970b627fd9f93ad945d",
+				"dweb:/ipfs/QmSjH5pbH8Rff4hGthq4nUZ3TxkNPmhb7PGjp4qFxaxzR4"
+			]
+		}
+	},
+	"version": 1
+}
