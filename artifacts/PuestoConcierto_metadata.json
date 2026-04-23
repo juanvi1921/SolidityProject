@@ -218,11 +218,11 @@
 			]
 		},
 		"contracts/PuestoConcierto.sol": {
-			"keccak256": "0x396486ebb94cef72bb2c0be605fe399eaff009b22f5a4d2c98a78ab9d4452936",
+			"keccak256": "0x41e03e8f4459fc8b3405522fd585aa2cb14b2f232c697158c011756cdb003e51",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e58b86caf0105ba217f2a39324cf513e524a316025fd8a82a9c0620dbe3dd859",
-				"dweb:/ipfs/Qmbg75TsDTC27sNwLzVAPXH29DPd35QdEr4QGTKP5UZRUu"
+				"bzz-raw://8f24d47dd953d3f2ae5226885d631a05c00080cf5f2a10ab1e0ae9a16a59fd82",
+				"dweb:/ipfs/QmWQmFuh61UoEpiLpiVucdbvU645Cqqi5huW7VHF21MWcF"
 			]
 		}
 	},

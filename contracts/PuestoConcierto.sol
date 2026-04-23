@@ -36,7 +36,7 @@ contract PuestoConcierto {
         contador++;
     }
 
-    // Comprar bebida (llamada a otro contrato)
+    // Comprar bebida (llamada a otro contrato) + Concepto de storage
     function comprar(uint id) public {
         Bebida storage bebida = bebidas[id];
 
