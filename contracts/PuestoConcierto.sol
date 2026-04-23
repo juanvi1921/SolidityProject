@@ -25,10 +25,10 @@ contract PuestoConcierto {
     mapping(uint => Bebida) public bebidas;
     uint public contador;
 
-    // Evento (extra para mejorar nota)
+    // Evento (extra para pruebas)
     event Compra(address comprador, string bebida);
 
-    // Solo owner puede añadir bebidas
+    // Solo owner puede añadir bebidas unido con el concepto de storage en la funcion comprar
     function agregarBebida(string memory _nombre, uint _precio, uint _stock) public {
         require(msg.sender == owner, "Solo el owner puede agregar");
 
@@ -50,7 +50,7 @@ contract PuestoConcierto {
         emit Compra(msg.sender, bebida.nombre);
     }
 
-    // Ver bebida (view + memory)
+    // Ver bebida (conceptos de view + memory)
     function verBebida(uint id) public view returns (string memory, uint, uint) {
         Bebida memory b = bebidas[id];
         return (b.nombre, b.precio, b.stock);

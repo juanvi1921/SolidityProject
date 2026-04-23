@@ -10,7 +10,9 @@ contract BebidaToken {
         owner = msg.sender;
     }
 
-    // Solo el owner puede crear tokens
+    // Solo el owner puede crear tokens, la funcion se llama mint porque en el 
+    // ecosistema blockchain, este término se refiere al proceso de crear nuevos tokens y registrar 
+    // su existencia por primera vez en la cadena de bloques. 
     function mint(address to, uint amount) public {
         require(msg.sender == owner, "Solo el owner puede mintear");
         balances[to] += amount;
@@ -23,7 +25,7 @@ contract BebidaToken {
         balances[to] += amount;
     }
 
-    // Consultar saldo (view)
+    // Consultar saldo (concepto de view)
     function balanceOf(address account) public view returns (uint) {
         return balances[account];
     }

@@ -131,11 +131,11 @@
 	},
 	"sources": {
 		"contracts/BebidaToken.sol": {
-			"keccak256": "0x243e9ffd74a66fca66b6e67a86b0345b34d201139bbd305966c9fab5e7525f26",
+			"keccak256": "0x2d5957739d794c591a43eaefd517de9f6ecd69b315e09283ef4a290f4efcec0d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://06557521dfb8dba29fa5fbd80cef98307a81c2a1ce59ac33746a5433e2fb304e",
-				"dweb:/ipfs/QmQxYcomz38aLK6t4eimnxu9qs1oQqDFpeBvsrKaqH5ENk"
+				"bzz-raw://f60db152835e83a374b46d37b7632b3cba097132253f2f2cbe1947dbcdab6549",
+				"dweb:/ipfs/QmQtGJeFbZF7YuvQKJywov7fYNU3L1BEsgdxsKHSVVbu1x"
 			]
 		}
 	},
